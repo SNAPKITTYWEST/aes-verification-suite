@@ -89,4 +89,7 @@ If you use this suite in research:
 
 ## License
 
-MIT
+Tri-licensed under **AGPL-3.0** (default for open-source redistribution) with BSL-1.1 and MPL-2.0 options.
+
+See [LICENSE](LICENSE) for full terms. License selection governed by the
+[SNAPKITTYWEST License Policy Engine](https://github.com/SNAPKITTYWEST/license-policy-engine).

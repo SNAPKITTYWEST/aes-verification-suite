@@ -1,21 +1,52 @@
-MIT License
+TRI-LICENSE STRUCTURE
+=====================
 
-Copyright (c) 2026 SNAPKITTYWEST
+This project is available under THREE licensing options:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Business Source License 1.1 (BSL-1.1)
+   - Source-available with commercial restrictions
+   - No managed service offerings at enterprise scale
+   - Converts to AGPL-3.0 after transition period (Change Date: 2028-08-11)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. GNU Affero General Public License v3.0 (AGPL-3.0)
+   - Strong network copyleft
+   - SaaS/network distribution triggers source disclosure
+   - All modifications must be AGPL-3.0
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Mozilla Public License 2.0 (MPL-2.0) + Commercial Dual License
+   - Weak copyleft (file-level)
+   - Can combine with proprietary code
+   - Modified files must remain MPL-2.0
+   - Commercial license available for copyleft bypass
+
+================================================================================
+
+WHICH LICENSE APPLIES?
+
+Default for open-source redistribution: AGPL-3.0
+
+For programmatic determination, use the license policy engine:
+  https://github.com/SNAPKITTYWEST/license-policy-engine
+
+  swipl -q -t halt -f license_policy.pl -- select <your_use_case>
+
+Use cases:
+  - saas_wrapper              -> AGPL-3.0
+  - enterprise_restricted     -> BSL-1.1
+  - file_level_mod            -> MPL-2.0
+  - copyleft_bypass           -> Commercial
+  - open_source_redistribution -> AGPL-3.0
+
+================================================================================
+
+COPYRIGHT HOLDER
+
+Copyright (C) 2026 Jessica Williams
+SnapKitty Collective Limited (FLP)
+Bel Esprit D'Accord Irrevocable Trust
+
+Contact: jessicalw34@gmail.com
+Web: https://github.com/SNAPKITTYWEST
+License Engine: https://github.com/SNAPKITTYWEST/license-policy-engine
+
+================================================================================

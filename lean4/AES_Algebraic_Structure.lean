@@ -1,6 +1,6 @@
 /-
   AES Algebraic Structure: R_NL = K . P_SBOX . L
-  Part of the AES-128 Algebraic Verification Suite (MIT License)
+  Part of the AES-128 Algebraic Verification Suite (AGPL-3.0)
   Zero sorry — all proofs fully discharged.
 -/
 

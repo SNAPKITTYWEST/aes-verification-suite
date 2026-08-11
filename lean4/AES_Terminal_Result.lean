@@ -1,6 +1,6 @@
 /-
   AES-128 10-Round Terminal Result
-  Part of the AES-128 Algebraic Verification Suite (MIT License)
+  Part of the AES-128 Algebraic Verification Suite (AGPL-3.0)
   Zero sorry — all proofs fully discharged.
 
   Terminal Result: NO BREAK
